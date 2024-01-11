@@ -34,11 +34,12 @@ Hello.class  Hello.java  messages  README
 ```
 
 ls with path to file as an argument
+input: /home/lecture1/messages
 ```
 # [user@sahara ~]$ ls Hello.class
-ls: cannot access 'Hello.java': No such file or directory
+en-us.txt
 ```
-There is an error because there are no files within the Hello.java file.
+
 
 ***
 
@@ -51,12 +52,14 @@ cat with no arguments
 ```
 
 cat with path to a directory as an argument
+input: /home
 ```
 # [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
 cat with path to a file as an argument
+input: /home/lecture1/messages
 ```
 # [user@sahara ~]$ cat en-us.txt
-cat: en-us.txt: No such file or directory
+Hello World!
 ```
