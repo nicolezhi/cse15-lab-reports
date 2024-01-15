@@ -1,8 +1,8 @@
 # **Week 1 Lab Report**
 
-## 'cd' examples
+## `cd` examples
 
-**'cd' with no arguments**
+**`cd` with no arguments**
 
 working directory: /home
 ```
@@ -11,7 +11,7 @@ working directory: /home
 ```
 The directory goes to the default (home) since there is no argument.
 
-**'cd' with path to a directory as an argument**
+**`cd` with path to a directory as an argument**
 
 working directory: /home
 ```
@@ -20,7 +20,7 @@ working directory: /home
 ```
 The program changes directory to the lecture1 directory.
 
-**'cd' with path to a file as argument**
+**`cd` with path to a file as argument**
 
 working directory: /home/lecture1
 ```
@@ -31,9 +31,9 @@ The program changes directory to the messages directory, inside lecture1.
 
 ***
 
-## 'ls' examples
+## `ls` examples
 
-**'ls' with no arguments**
+**`ls` with no arguments**
 
 working directory: /home
 ```
@@ -42,7 +42,7 @@ lab1  lecture1
 ```
 The output lists the directories in the workspace, which are lab1 and lecture1.
 
-**'ls' with path to a directory as an argument**
+**`ls` with path to a directory as an argument**
 
 working directory: /home
 ```
@@ -51,7 +51,7 @@ Hello.class  Hello.java  messages  README
 ```
 The output lists the files within the lecture1 directory.
 
-**'ls' with path to file as an argument**
+**`ls` with path to file as an argument**
 
 working directory: /home/lecture1/messages
 ```
@@ -62,18 +62,18 @@ The output repeats the file name given in the argument.
 
 ***
 
-## 'cat' examples
+## `cat` examples
 
 working directory: /home
 
-**'cat' with no arguments**
+**`cat` with no arguments**
 ```
 # [user@sahara ~]$ cat
 
 ```
 There is no output because there was no argument given next to the cat command.
 
-**'cat' with path to a directory as an argument**
+**`cat` with path to a directory as an argument**
 
 working directory: /home
 ```
@@ -82,7 +82,7 @@ cat: lecture1: Is a directory
 ```
 The output shows that lecture1 is a directory.
 
-**'cat' with path to a file as an argument**
+**`cat` with path to a file as an argument**
 
 working directory: /home/lecture1/messages
 ```
