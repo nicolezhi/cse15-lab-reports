@@ -63,21 +63,28 @@ The output repeats the file name given in the argument.
 ***
 
 ## cat examples
+working directory: /home
 
 **cat with no arguments**
 ```
 # [user@sahara ~]$ cat
 
 ```
+There is no output because there was no argument given next to the cat command.
+
 **cat with path to a directory as an argument**
-input: /home
+working directory: /home
 ```
 # [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
+The output shows that lecture1 is a directory.
+
 **cat with path to a file as an argument**
-input: /home/lecture1/messages
+
+working directory: /home/lecture1/messages
 ```
 # [user@sahara ~]$ cat en-us.txt
 Hello World!
 ```
+The output shows the contents of the text file.
