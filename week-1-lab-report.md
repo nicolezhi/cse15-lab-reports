@@ -73,6 +73,7 @@ working directory: /home
 There is no output because there was no argument given next to the cat command.
 
 **cat with path to a directory as an argument**
+
 working directory: /home
 ```
 # [user@sahara ~]$ cat lecture1
