@@ -3,6 +3,7 @@
 ## cd examples
 
 **cd with no arguments**
+
 working directory: /home
 ```
 # [user@sahara ~]$ cd
