@@ -9,7 +9,7 @@ working directory: /home
 # [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-The program changes directory back to the default (home) since there is no argument.
+The directory goes to the default (home) since there is no argument.
 
 **cd with path to a directory as an argument**
 
