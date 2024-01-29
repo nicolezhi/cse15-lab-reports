@@ -53,7 +53,7 @@ not an error: The output lists the files within the `lecture1` directory.
 
 **`ls` with path to file as an argument**
 
-working directory: `/home/lecture1/messages`
+working directory: `/home'
 ```
 # [user@sahara ~]$ ls en-us.txt
 en-us.txt
