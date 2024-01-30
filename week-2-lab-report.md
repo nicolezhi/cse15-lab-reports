@@ -66,9 +66,9 @@ class ChatServer {
 }
 ```
 **Screenshot of `/add-message?s=Hello&user=jpolitz`**
-[Screenshot] (https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
+![Screenshot](https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
 
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
-[Screenshot] (https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
+![Screenshot](https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
 
 
