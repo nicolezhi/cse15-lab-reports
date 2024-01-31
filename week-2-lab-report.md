@@ -69,8 +69,17 @@ class ChatServer {
 
 [Screenshot](https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
 
+
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
 
 [Screenshot](https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
 
+***
+**Part 2**
+[Screenshot](https://drive.google.com/file/d/1YeZ-7TRrCsqfY21tU4MzDFTylkjcxEAW/view?usp=sharing)
 
+The screenshot above shows both the private and public keys when I use the `ls` command. The private key is `id_rsa` and the public key is `id_rsa.pub`. 
+
+[Screenshot](https://drive.google.com/file/d/1rU5UoOsp2HErtCZUJoSqKPT5N6TwhR9k/view?usp=sharing)
+
+The screenshot above shows that once I used the `scp` command to log into my account, the next time I logged into my account using `ssh`, it did not prompt me for a password.
