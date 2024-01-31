@@ -69,7 +69,7 @@ class ChatServer {
 
 [Screenshot](https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
 
-To get the output: `user: jpolitz`, the code has to split the URL after `/add-message?` into a `parameters` array by the `&` symbol into `[s=Hello, user=jpolitz]`, using the method: `url.getQuery().split("&")`. Then, the code splits the array elements by the `=` sign into `[user, politz]`, using the method: `parameters[1].split("=")`. The code stores `politz` into a field called `user`. Then this `user` field gets added to a temporary string as `"user: jpolitz"` and returned. Using a similar method: `parameters[0].split("=")` splits the    `parameters` array's first element into `[s, Hello]` and stores it into the `message` String array. `Hello` gets stored into the temporary String array, and finally we return the temporary string with a new line (`"\n"`) to get `jpolitz: Hello`. 
+To get the output: `user: jpolitz`, the code has to split the URL after `/add-message?` into a `parameters` array by the `&` symbol into `[s=Hello, user=jpolitz]`, using the method: `url.getQuery().split("&")`. Then, the code splits the array elements by the `=` sign into `[user, politz]`, using the method: `parameters[1].split("=")`. The code stores `politz` into a field called `user`. Then this `user` field gets added to a temporary string as `"jpolitz". Using a similar method: `parameters[0].split("=")` splits the `parameters` array's first element into `[s, Hello]` and stores it into the `message` String array. `Hello` gets stored into the temporary String array, and finally we return the temporary string with a new line (`"\n"`) to get `jpolitz: Hello`. 
 
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
 
