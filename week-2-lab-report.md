@@ -74,7 +74,8 @@ To get the output: `user: jpolitz`, the code has to split the URL after `/add-me
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
 
 [Screenshot](https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
-The code works pretty much the same for this input as it did above, using the same logic on a different input. First, the `url.getQuery().split("&")` method splits the URL into a `parameters` array into 2 elements: `[s=How are you, user=yash]`. Then, the `parameters[1].split("=")` splits the index: 1 element into `[user, yash]` and stores `"yash"` into a temporary string called `temp`. Then, the `parameters[0].split("=")` method splits the index: 0 element into `[s, How are you]` which stores `"How are you"` into `temp`. Finally, the temporary string gets returned with a new line (`"\n"`) so the output is `"yash: How are you"`in a new line underneath the message printed in the URL above.
+
+The code works pretty much the same for this input as it did above, using the same logic on a different input. First, the `url.getQuery().split("&")` method splits the URL into a `parameters` array into 2 elements: `[s=How are you, user=yash]`. Then, the `parameters[1].split("=")` splits the index: 1 element into `[user, yash]` and stores `"yash"` into a temporary string called `temp`. Then, the `parameters[0].split("=")` method splits the index: 0 element into `[s, How are you]` which stores `"How are you"` into `temp`. Finally, the temporary string gets returned with a new line (`"\n"`) so the output is `"yash: How are you"`in a new line underneath the message printed in the URL above. The difference between this URL and the one above is the values of `String[] message`, `String[] user`, and the `temp` string, since the URL's are different.
 
 ***
 ## **Part 2**
