@@ -69,12 +69,12 @@ class ChatServer {
 
 [Screenshot](https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
 
-To get the output: `user: jpolitz`, the code has to split the URL after `/add-message?` into a `parameters` array by the `&` symbol into `[s=Hello, user=jpolitz]`, using the method: `url.getQuery().split("&")`. Then, the code splits the array elements by the `=` sign into `[user, politz]`, using the method: `parameters[1].split("=")`. The code stores `politz` into a field called `user`. Then this `user` field gets added to a temporary string as `"jpolitz"`. Using a similar method: `parameters[0].split("=")` splits the `parameters` array's first element into `[s, Hello]` and stores it into the `message` String array. `Hello` gets stored into the temporary String array, and finally we return the temporary string with a new line (`"\n"`) to get `jpolitz: Hello`. 
+To get the output: `user: jpolitz`, the code has to split the URL after `/add-message?` into a `parameters` array by the `&` symbol into `[s=Hello, user=jpolitz]`, using the method: `url.getQuery().split("&")`. Then, the code splits the array elements by the `=` sign into `[user, politz]`, using the method: `parameters[1].split("=")`. The code stores `politz` into a field called `user`. Then this `user` field gets added to a temporary string as `"jpolitz"`. Using a similar method: `parameters[0].split("=")` splits the `parameters` array's first element into `[s, Hello]` and stores it into the `message` String array. `"Hello"` gets stored into the temporary String array, and finally we return the temporary string with a new line (`"\n"`) to get `"jpolitz: Hello"`. 
 
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
 
 [Screenshot](https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
-To get the output: `
+The code works pretty much the same for this input as it did above. First, the `url.getQuery().split("&")` method splits the URL into a `parameters` array with 2 elements: `[s=How are you, user=yash]`. Then, the `parameters[1].split("=")` splits the index: 1 element into `[user, yash]` and stores `"yash"` into a temporary string. Then, the `parameters[0].split("=")` method splits the index: 0 element into `[s, How are you]` which stores `"How are you"` into a temporary string. Finally, the temporary string gets returned with a new line so the output is `"yash: How are you"`in a new line underneath the message printed in the URL above.
 
 ***
 ## **Part 2**
