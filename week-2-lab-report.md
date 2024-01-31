@@ -83,7 +83,7 @@ The screenshot above shows both the private and public keys when I use the `ls` 
 
 [Screenshot](https://drive.google.com/file/d/1rU5UoOsp2HErtCZUJoSqKPT5N6TwhR9k/view?usp=sharing)
 
-The screenshot above shows that once I used the `scp` command to log into my account, the next time I logged into my account using `ssh`, it did not prompt me for a password.
+The screenshot above shows that once I used the `scp` command to log into my account, the next time I logged into my account using `ssh`, it did not prompt me for a password in order to log in.
 ***
 
 ## **Part 3**
