@@ -82,7 +82,7 @@ The code works pretty much the same for this input as it did above, using the sa
 
 [Screenshot](https://drive.google.com/file/d/17rKX_apciwZ4LSS22VM_Me_C7JlGV3qh/view?usp=drive_link)
 
-The screenshot above shows the private and public keys when I use the `ls` command. The private key is `id_rsa` and the public key is `id_rsa.pub`. The absolute pathway for the private key is `/home/linux/ieng6/oce/5p/nzhi/.ssh/id_rsa`. The absolute pathway for the public key is `/Users/nzhi/.ssh/id_rsa.pub`. 
+The screenshot above shows the private and public keys when I use the `ls` command. The absolute pathway for the public key is `/home/linux/ieng6/oce/5p/nzhi/.ssh/id_rsa.pub`. The absolute pathway for the private key is `/Users/nzhi/.ssh/id_rsa.pub`. 
 
 [Screenshot](https://drive.google.com/file/d/1PWUxqZ9T9LJDSL3dlHvC39_WbSKGQW4t/view?usp=drive_link)
 
