@@ -1,4 +1,4 @@
-# **Week 2 Lab Report**
+# **Week 3 Lab Report**
 ***
 ## Part 1: Bugs
 There is a bug in the `filter` method in `ListExamples`. 
