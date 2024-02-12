@@ -76,6 +76,7 @@ The first method called is handleRequest() which checks if the given URL contain
 [Screenshot](https://drive.google.com/file/d/1-oieLs9yix5wNPKcMtXoYPY3jJz9vfbb/view?usp=drive_link)
 
 The code works pretty much the same for this input as it did above, using the same logic on a different input. First, the `url.getQuery().split("&")` method splits the URL into a `parameters` array into 2 elements: `[s=How are you, user=yash]`. Then, the `parameters[1].split("=")` splits the index: 1 element into `[user, yash]` and stores `"yash"` into a temporary string called `temp`. Then, the `parameters[0].split("=")` method splits the index: 0 element into `[s, How are you]` which stores `"How are you"` into `temp`. Finally, the temporary string gets returned with a new line (`"\n"`) so the output is `"yash: How are you"`in a new line underneath the message printed in the URL above. The difference between this URL and the one above is the values of `String[] message`, `String[] user`, and the `temp` string, since the URL's are different.
+
 ***
 
 ## **Part 2**
@@ -87,6 +88,7 @@ The screenshot above shows the private and public keys when I use the `ls` comma
 [Screenshot](https://drive.google.com/file/d/1PWUxqZ9T9LJDSL3dlHvC39_WbSKGQW4t/view?usp=drive_link)
 
 The screenshot above shows that once I used the `scp` command to log into my account, the next time I logged into my account using `ssh`, it did not prompt me for a password in order to log in.
+
 ***
 
 ## **Part 3**
