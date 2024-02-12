@@ -67,24 +67,24 @@ class ChatServer {
 ```
 **Screenshot of `/add-message?s=Hello&user=jpolitz`**
 
-[Screenshot](https://drive.google.com/file/d/1aF8EjpzR-2N5ggnS2dGZ-YQQK7XRtSlJ/view?usp=sharing)
+[Screenshot](https://drive.google.com/file/d/10HAJhlUbCp0uPrWpXvHQ6Yd38rQQsoNc/view?usp=drive_link)
 
 To get the output: `user: jpolitz`, the code has to split the URL after `/add-message?` into a `parameters` array by the `&` symbol into `[s=Hello, user=jpolitz]`, using the method: `url.getQuery().split("&")`. Then, the code splits the array elements by the `=` sign into `[user, politz]`, using the method: `parameters[1].split("=")`. The code stores `"jpolitz"` gets added to a temporary string called `temp`. Using a similar method: `parameters[0].split("=")` splits the `parameters` array's first element into `[s, Hello]`. `"Hello"` gets stored into the temporary String array, and finally we return the `temp` string to get `"jpolitz: Hello"`. 
 
 **Screenshot of `/add-message?s=How%20are%20you&user=yash`**
 
-[Screenshot](https://drive.google.com/file/d/1Qr9aGd4_EaMCVjUy-PJMHnUhvoK2P7Vt/view?usp=sharing)
+[Screenshot](https://drive.google.com/file/d/1-oieLs9yix5wNPKcMtXoYPY3jJz9vfbb/view?usp=drive_link)
 
 The code works pretty much the same for this input as it did above, using the same logic on a different input. First, the `url.getQuery().split("&")` method splits the URL into a `parameters` array into 2 elements: `[s=How are you, user=yash]`. Then, the `parameters[1].split("=")` splits the index: 1 element into `[user, yash]` and stores `"yash"` into a temporary string called `temp`. Then, the `parameters[0].split("=")` method splits the index: 0 element into `[s, How are you]` which stores `"How are you"` into `temp`. Finally, the temporary string gets returned with a new line (`"\n"`) so the output is `"yash: How are you"`in a new line underneath the message printed in the URL above. The difference between this URL and the one above is the values of `String[] message`, `String[] user`, and the `temp` string, since the URL's are different.
 
 ***
 ## **Part 2**
 
-[Screenshot](https://drive.google.com/file/d/1YeZ-7TRrCsqfY21tU4MzDFTylkjcxEAW/view?usp=sharing)
+[Screenshot](https://drive.google.com/file/d/17rKX_apciwZ4LSS22VM_Me_C7JlGV3qh/view?usp=drive_link)
 
 The screenshot above shows both the private and public keys when I use the `ls` command. The private key is `id_rsa` and the public key is `id_rsa.pub`. 
 
-[Screenshot](https://drive.google.com/file/d/1rU5UoOsp2HErtCZUJoSqKPT5N6TwhR9k/view?usp=sharing)
+[Screenshot](https://drive.google.com/file/d/1PWUxqZ9T9LJDSL3dlHvC39_WbSKGQW4t/view?usp=drive_link)
 
 The screenshot above shows that once I used the `scp` command to log into my account, the next time I logged into my account using `ssh`, it did not prompt me for a password in order to log in.
 ***
