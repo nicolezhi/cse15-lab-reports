@@ -1,11 +1,9 @@
 # **Week 3 Lab Report**
 ***
 ## Part 1: Bugs
-There is a bug in the `filter` method in `ListExamples`. 
+There is a bug in the `filter` method in `ListExamples`. The line: `result.add(0, s)` reverses the order of the elements in the list.
 
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-
-The bug: reverses the order of the elements in the list in the line: `result.add(0, s)`
+Below is a failure-inducing input for the buggy program, as a JUnit test and associated code.
 ```
 public class ListTest {
   @Test
@@ -36,3 +34,18 @@ public class ListTest {
   
 }
 ```
+
+Below is an input that doesn't induce a failure, as a JUnit test and associated code.
+```
+code here
+```
+
+Below is the symptom, as the output of running the tests (screenshot of running JUnit with at least the two inputs above)
+
+Below is the bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+```
+code here
+```
+Description of why the fix addresses the issue.
+***
+## Part 2: Researching Commands
