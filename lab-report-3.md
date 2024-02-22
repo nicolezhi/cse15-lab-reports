@@ -91,18 +91,18 @@ Before, the code would add the next element in the array at the index 0, resulti
 **The command line option `-N` shows the line numbers for a text file in `./technical/biomed`.**
 This is the input:
 ```
-less -N ./technical/biomed/1468-6708-3-3.txt`
+less -N ./technical/biomed/1468-6708-3-3.txt
 ```
 This is the output of the first few lines of the text file:
 ```
-      5         Introduction
-      6         Older adults are frequently counseled to lose weight,
-      7         even though there is little evidence that overweight is
-      8         associated with increased mortality in those over age 65.
-      9         Six large controlled population-based studies of
-     10         non-smoking older adults have investigated the association
+      5         The problem
+      6         Three published [ 1 2 3 ] and one recently presented [ 4
+      7         ] randomized placebo-controlled clinical trial have
+      8         unequivocally demonstrated that 3-Hydroxy-3-methylgluatryl
+      9         coenzyme A (HMG CoA) reductase inhibitors (statins) reduce
+     10         the morbidity and mortality associated with coronary
 ```
-Below is a screenshot of the first few lines of the text file output.
+Below is a screenshot of the first few lines of the text file output. The -N is useful because it shows the line number after each line so you can see how many lines are in the text file total and reference certain line numbers.
 
 <img width="755" alt="Screenshot 2024-02-22 at 1 17 15 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/7cd09804-9096-4481-810c-3bdad7ece466">
 
@@ -121,8 +121,7 @@ This is the output:
 Below is a screenshot of what the output code looks like.
 <img width="755" alt="Screenshot 2024-02-22 at 1 19 45 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/c565c07f-6be0-47ba-8cb6-e88cb5dc18e2">
 
-
-The -N is useful here because it shows the line number next to each line, so you know how many lines there are total in the text file and how to reference a specific line by its line number.
+The -N is useful in these examples because it shows the line number next to each line, so you know how many lines there are total in the text file and how to reference a specific line by its line number.
 
 **The command `+G` shows the lines at the bottom of the text file.**
 This is the input:
