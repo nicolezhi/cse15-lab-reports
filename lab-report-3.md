@@ -91,7 +91,7 @@ Before, the code would add the next element in the array at the index 0, resulti
 **The command line option `-N` shows the line numbers for a text file in `./technical/biomed`.**
 This is the input:
 ```
-less -N ./technical/biomed/1468-6708-3-.txt`
+less -N ./technical/biomed/1468-6708-3-3.txt`
 ```
 This is the output of the first few lines of the text file:
 ```
@@ -102,11 +102,15 @@ This is the output of the first few lines of the text file:
       9         Six large controlled population-based studies of
      10         non-smoking older adults have investigated the association
 ```
+Below is a screenshot of the first few lines of the text file output.
+
+<img width="755" alt="Screenshot 2024-02-22 at 1 17 15 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/7cd09804-9096-4481-810c-3bdad7ece466">
+
 In another example using a text file in the `plos` directory, this is the input:
 ```
 less -N ./technical/plos/journal.pbio.0020001.txt
 ```
-This is the output:
+This is the output: 
 ```
       6         Kofi Annan, the Secretary-General of the United Nations, recently called atten      6 tion to
       7         the clear inequalities in science between developing and developed countries a      7 nd to the
@@ -114,6 +118,12 @@ This is the output:
       9         the world scientific community closer to each other (Annan 2003). Mr. Annan st      9 ressed the
      10         importance of reducing the inequalities in science between developed and devel     10 oping
 ```
+Below is a screenshot of what the output code looks like.
+<img width="755" alt="Screenshot 2024-02-22 at 1 19 45 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/c565c07f-6be0-47ba-8cb6-e88cb5dc18e2">
+
+
+The -N is useful here because it shows the line number next to each line, so you know how many lines there are total in the text file and how to reference a specific line by its line number.
+
 **The command `+G` shows the lines at the bottom of the text file.**
 This is the input:
 ```
@@ -124,6 +134,8 @@ The result shows the text file scrolled to the bottom. This is the last line in 
 ```
 a SPOT digital camera (Diagnostic Instruments Inc.).
 ```
+This command is useful because there are so many lines in the specified file, and scrolling it to the bottom of the text file helps you get to the end of the text easily.
+
 This is another input:
 ```
 less +G ./technical/plos/journal.pbio.0020043.txt
@@ -132,6 +144,8 @@ This is the last line in the text file, which is scrolled to the bottom.
 ```
 planet and why, in the meantime, we should take a close look at scale insects.
 ```
+Again, using this command to scroll to the bottom of the text file helps you get to the end of the text easily.
+
 **The command `+<line-number>` shows the text file at the given line number.**
 This is an input:
 ```
