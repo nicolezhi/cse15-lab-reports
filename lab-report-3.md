@@ -151,19 +151,25 @@ planet and why, in the meantime, we should take a close look at scale insects.
 Below is a screenshot of the output code.
 <img width="755" alt="Screenshot 2024-02-22 at 1 25 24 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/bb531d7f-8485-4f4f-b3bf-5003dad8d8c9">
 
-Again, using this command to scroll to the bottom of the text file helps you get to the end of the text easily.
+Again, using this command to scroll to the bottom of the text file helps you get to/reference the end of the text easily.
 
 ***
 
 **The command `+<line-number>` shows the text file at the given line number.**
 This is an input:
 ```
-less -N +150 ./technical/biomed/1471-213.1-3.txt
+less -N +150 ./technical/biomed/1471-213X-1-3.txt
 ```
 In the output, it scrolls exactly to line 150.
 ```
  150           several cells thick and extended from the anterior edge
 ```
+Below is a screenshot of the output code, scrolled to line 150.
+
+<img width="755" alt="Screenshot 2024-02-22 at 1 27 57 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/8ecc51e7-910e-42a6-80c3-95006b0f3f0d">
+
+This command is extremely helpful when you want to reference a certain line in the text file, since many text files are large and have hundreds or thousands of lines of text.
+
 This is another input:
 ```
 less -N +65 ./technical/plos/journal.pbio.0020064.txt
@@ -172,6 +178,11 @@ In the output, the text file shows the line at line 65.
 ```
  65         and, subsequently, a whole family of T2Rs’, says Zuker.
 ```
+Below is a screenshot of the output code at line 65.
+<img width="755" alt="Screenshot 2024-02-22 at 1 29 29 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/0f9d9ed8-30e8-4ebf-ad3f-5489850a66c2">
+
+In this example, the `<+line number>` command was helpful in taking me directly to line 65 when searching for a specific line in the text file.
+
 **The `:n` and `:p` commands are used to switch between two text files (next or previous).**
 This is the input:
 ```
