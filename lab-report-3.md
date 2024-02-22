@@ -203,3 +203,69 @@ less -S ./technical/plos/journal.pbio.0020040.txt
 Below is the output. As you can see, the `-S` command moves text onto the next line so that it does not wrap around the page. This makes it easy to read every word in the line of the text file.
 
 <img width="494" alt="Screenshot 2024-02-22 at 1 45 01 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/a5c8beb2-d856-4467-816f-de36f0dcfa30">
+
+***
+
+## Works Cited
+
+I used ChatGPT to give me a list of command line options for this lab. The prompts I gave ChatGPT were: "less command in line options" and "how to use less -S".
+
+**The first output it gave me was:**
+
+"The less command is a terminal pager program that allows you to view text files in a scrollable and interactive way. Here are some commonly used command-line options for the less command:
+
+Basic Usage:
+
+Copy code
+less filename
+Opens the specified file in less for viewing.
+
+Navigation:
+
+Spacebar or Page Down: Move forward one screen.
+b or Page Up: Move backward one screen.
+↑ and ↓ arrow keys: Move line by line.
+g: Go to the beginning of the file.
+G: Go to the end of the file.
+q: Quit less.
+Search:
+
+/pattern: Search forward for a pattern.
+?pattern: Search backward for a pattern.
+n: Move to the next occurrence of the search pattern.
+N: Move to the previous occurrence of the search pattern.
+File Information:
+
+=: Display the current line number and total number of lines.
+:f: Display the current file name and status.
+Marking Text:
+
+v: Open the current file in the default text editor (configured by the $VISUAL or $EDITOR environment variable).
+Other Options:
+
+-N: Display line numbers.
+-i: Ignore case when searching.
+-S: Disable line wrapping.
+-F: Quit if the entire file can be displayed on one screen.
+Example:
+
+bash
+Copy code
+less -i -N myfile.txt
+These are just a few examples of the many options available with the less command. You can access more options and details by checking the manual page using man less in the terminal."
+
+**The next output it gave me was:**
+
+The -S option in the less command is used to disable line wrapping. When you use less -S, it prevents long lines from wrapping onto the next line, making it easier to read lines that extend beyond the width of your terminal. Here's an example of how to use less -S:
+
+bash
+Copy code
+less -S filename
+Replace filename with the name of the file you want to view. Once you've opened the file with less -S, you can navigate through the file using the arrow keys, spacebar, and other navigation commands as mentioned earlier.
+
+If you want to use less -S with other options, you can combine them. For example:
+
+bash
+Copy code
+less -S -i myfile.txt
+This would open the file myfile.txt in less, disable line wrapping (-S), and ignore case when searching (-i). Adjust the options based on your preferences and needs."
