@@ -183,25 +183,22 @@ Below is a screenshot of the output code at line 65.
 
 In this example, the `<+line number>` command was helpful in taking me directly to line 65 when searching for a specific line in the text file.
 
-**The `:n` and `:p` commands are used to switch between two text files (next or previous).**
+***
+
+**The `-S` command is used to disable line wrapping when displayed in the terminal.**
 This is the input:
 ```
-less ./technical/biomed/1468-6708-3-1.txt ./technical/biomed/1468-6708-3-3.txt
+less -S ./technical/biomed/1468-6708-3-1.txt ./technical/biomed/1468-6708-3-3.txt
 ```
-One text file is shown at a time. I can use `:n` to go to the next file and `:p` to go to the previous. When I use :n, it shows the next text file (here are the first 3 lines of the text file). It also says this at the bottom: `./technical/biomed/1468-6708-3-3.txt (file 2 of 2)`.
-```
-The problem
-Three published [ 1 2 3 ] and one recently presented [ 4
-] randomized placebo-controlled clinical trial have
-```
+In the output in the terminal, the lines do not go all the way to the end of the page as there is a larger margin. Below is a screenshot of the output code.
+<img width="755" alt="Screenshot 2024-02-22 at 1 38 38 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/ad0428d2-654d-44db-811d-040bfa2b16e2">
+
+This `-S` command is useful because it makes it easier to read the text in the terminal, instead of the words going off the page.
 
 This is another intput.
 ```
-less ./technical/plos/0020040.txt ./technical/plos/0020042.txt
+less -S ./technical/plos/journal.pbio.0020040.txt
 ```
-This is the output of the first 3 lines of the first text file when I use `:p`. It also says this at the bottom: `less ./technical/plos/0020040.txt (file 1 of 2)`.
-```
-Stuttering, with its characteristic disruption in verbal fluency, has been known for
-centuries; earliest descriptions probably date back to the Biblical Moses' “slowness of
-speech and tongue” and his related avoidance behavior (Exodus 4, 10–13). Stuttering occurs
-```
+Below is the output. As you can see, the `-S` command moves text onto the next line so that it does not wrap around the page. This makes it easy to read every word in the line of the text file.
+
+<img width="755" alt="Screenshot 2024-02-22 at 1 42 00 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/4d58743c-c0fb-4a1c-a66a-95955ee835a0">
