@@ -53,7 +53,8 @@ public class ListTest {
 ```
 
 **Below is the symptom, as the output of running the tests (screenshot of running JUnit with at least the two inputs above).**
-<img width="682" alt="Screenshot 2024-02-13 at 11 05 27 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/da5ae317-7ad4-4826-b12e-ba7db80e5d98">
+<img width="754" alt="lab3-screenshot1" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/095ddaab-686d-43b5-8c48-0494b70d05e0">
+
 
 **Below is the bug `result.add(0, s)`, as the before code.**
 ```
