@@ -123,6 +123,8 @@ Below is a screenshot of what the output code looks like.
 
 The -N is useful in these examples because it shows the line number next to each line, so you know how many lines there are total in the text file and how to reference a specific line by its line number.
 
+***
+
 **The command `+G` shows the lines at the bottom of the text file.**
 This is the input:
 ```
@@ -133,6 +135,9 @@ The result shows the text file scrolled to the bottom. This is the last line in 
 ```
 a SPOT digital camera (Diagnostic Instruments Inc.).
 ```
+Below is a screenshot of the output code.
+<img width="755" alt="Screenshot 2024-02-22 at 1 24 38 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/f9a34f81-8b15-4bd6-b685-a0a9817ef839">
+
 This command is useful because there are so many lines in the specified file, and scrolling it to the bottom of the text file helps you get to the end of the text easily.
 
 This is another input:
@@ -143,7 +148,12 @@ This is the last line in the text file, which is scrolled to the bottom.
 ```
 planet and why, in the meantime, we should take a close look at scale insects.
 ```
+Below is a screenshot of the output code.
+<img width="755" alt="Screenshot 2024-02-22 at 1 25 24 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/bb531d7f-8485-4f4f-b3bf-5003dad8d8c9">
+
 Again, using this command to scroll to the bottom of the text file helps you get to the end of the text easily.
+
+***
 
 **The command `+<line-number>` shows the text file at the given line number.**
 This is an input:
