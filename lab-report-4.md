@@ -16,6 +16,9 @@ My input was: `git clone git@github.com:ucsd-cse15l-s23/lab7.git new_directory <
 ***
 
 **Below is a screenshot of me running the tests in `ListExamplesTests.java`.** 
-My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>` and `<up><up> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java <enter>`. The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 1 up in the search history, so I pressed the up arrow key once to access it. The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java` key was 2 up in the search history, so I pressed the up arrow key twice to access it.
+My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>` and `<up><up> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>`. The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 1 up in the search history, so I pressed the up arrow key once to access it. The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` key was 2 up in the search history, so I pressed the up arrow key twice to access it.
 
-<img width="749" alt="Screenshot 2024-02-27 at 9 49 48 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/e6afd787-0b27-4346-b57f-de26eb0cb1e7">
+<img width="452" alt="Screenshot 2024-02-27 at 10 12 54 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/5ef54b4d-37ab-4a41-9108-1afe3f703dfd">
+
+**I fixed the code by changing `index1 += 1` to `index2 += 1`.**
+<img width="452" alt="Screenshot 2024-02-27 at 10 22 23 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/08f116a3-b35b-4ecb-8f28-dbd387697286">
