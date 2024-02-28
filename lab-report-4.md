@@ -16,6 +16,6 @@ My input was: `git clone git@github.com:ucsd-cse15l-s23/lab7.git new_directory <
 ***
 
 **Below is a screenshot of me running the tests in `ListExamplesTests.java`.** 
-My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>` and `<up><up> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java <enter>`. 
+My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>` and `<up><up> java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java <enter>`. The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 1 up in the search history, so I pressed the up arrow key once to access it. The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java` key was 2 up in the search history, so I pressed the up arrow key twice to access it.
 
 <img width="749" alt="Screenshot 2024-02-27 at 9 49 48 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/e6afd787-0b27-4346-b57f-de26eb0cb1e7">
