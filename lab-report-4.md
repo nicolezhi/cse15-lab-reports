@@ -20,6 +20,15 @@ My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *
 
 <img width="452" alt="Screenshot 2024-02-27 at 10 12 54 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/5ef54b4d-37ab-4a41-9108-1afe3f703dfd">
 
+***
+
+
 **I fixed the code by changing `index1 += 1` to `index2 += 1 in line 43 of the merge method. Additionally, I edited the filter method in line 15 by changing `result.add(0, s)`; to `result.add(s);` so that the elements get added to the end of the list, not the beginning.`**
 
 <img width="629" alt="Screenshot 2024-03-09 at 11 43 50 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/543615d9-93b0-4424-9200-6c2d25c228ce">
+
+***
+
+**After running the two tests with the edited code, they now pass. Below is a screenshot of the passing tests.**
+
+<img width="643" alt="Screenshot 2024-03-10 at 12 03 32 AM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/32ff117b-9826-45d2-9b4d-e0373c31ec3f">
