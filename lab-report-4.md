@@ -20,5 +20,6 @@ My input was: `<up> javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *
 
 <img width="452" alt="Screenshot 2024-02-27 at 10 12 54 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/5ef54b4d-37ab-4a41-9108-1afe3f703dfd">
 
-**I fixed the code by changing `index1 += 1` to `index2 += 1 in line 43 of the merge method. Additionally, I edited the filter method in line 15 by changing `result.add(0, s)`; to `result.add(s);` so that the elements get added to the end of the list, not the beginning.` **
+**I fixed the code by changing `index1 += 1` to `index2 += 1 in line 43 of the merge method. Additionally, I edited the filter method in line 15 by changing `result.add(0, s)`; to `result.add(s);` so that the elements get added to the end of the list, not the beginning.`**
+
 <img width="452" alt="Screenshot 2024-02-27 at 10 22 23 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/08f116a3-b35b-4ecb-8f28-dbd387697286">
