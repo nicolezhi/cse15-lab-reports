@@ -36,6 +36,6 @@ I pressed the up arrow and `<enter>` to compile, and then the up arrow twice and
 
 ***
 
-**I used the `git init` command to initialize the directory as a Git repository. Then, I used the `git add ListExamplesTests` command to add the `ListExamplesTests.java` file. Then, I used the `git command -m "tests passed"` command to commit the changes with a message. Finally, I used the `git remote add git@github.com:nicolezhi/cse15-lab-reports.git` and `git push origin main` commands to push the updated changes to my github repository.**
+**I used the `git init` command to initialize the directory as a Git repository. Then, I used the `git add ListExamplesTests` command to add the `ListExamplesTests.java` file. Then, I used the `git command -m "tests passed"` command to commit the changes with a message. Finally, I used the `git remote add git@github.com:nicolezhi/lab7.git` and `git push origin main` commands to push the updated changes to my github repository.**
 
 <img width="643" alt="Screenshot 2024-03-10 at 12 56 50 AM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/533d0b1d-1ae6-458c-bf41-51261137489b">
