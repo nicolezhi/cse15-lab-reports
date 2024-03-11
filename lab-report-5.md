@@ -63,12 +63,24 @@ My program is giving me an error that the merge method is not working in `testMe
 <img width="669" alt="Screenshot 2024-03-11 at 2 53 31 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/7a993e30-06fa-4a17-8ea8-567b22dadbdf">
 <img width="549" alt="Screenshot 2024-03-11 at 2 53 56 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/d26c7aab-8fe7-4394-b924-baee881195b3">
 
+***
+
 **Edstem reply from a TA asking a leading question to help the student debug their code.**
 
 "Hello,
 
 You are correct that the merge method is not working. Have you tried looking to see if there may be a typo when you increment the indexes?"
 
+***
+
 **Student's output after debugging code based on TA's suggestion.**
 
 <img width="563" alt="Screenshot 2024-03-11 at 3 05 11 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/c45eec1d-130c-4faf-97cb-aefd2ce770b5">
+
+The bug was located in line 30. Instead of incrementing `index1` by 1, the student was incorrectly incrementing `index2`. Since the if statement is adding an element at `index1` in `list1` to the new list, `index1` needs to be incremented by 1 to move onto the next element in `list1`.
+
+***
+
+**Setup information**
+
+
