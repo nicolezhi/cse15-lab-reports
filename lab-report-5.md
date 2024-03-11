@@ -2,59 +2,6 @@
 ***
 ## Part 1: Edstem Conversation About Debugging
 
-**Below is the code for the ListExamples.java file before the bug is fixed.**
-```
-import java.util.ArrayList;
-import java.util.List;
-
-interface StringChecker { boolean checkString(String s); }
-
-class ListExamples {
-
-  // Returns a new list that has all the elements of the input list for which
-  // the StringChecker returns true, and not the elements that return false, in
-  // the same order they appeared in the input list;
-  static List<String> filter(List<String> list, StringChecker sc) {
-    List<String> result = new ArrayList<>();
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        result.add(s);
-      }
-    }
-    return result;
-  }
-
-  // Takes two sorted list of strings (so "a" appears before "b" and so on),
-  // and return a new list that has all the strings in both list in sorted order.
-  static List<String> merge(List<String> list1, List<String> list2) {
-    List<String> result = new ArrayList<>();
-    int index1 = 0, index2 = 0;
-    while(index1 < list1.size() && index2 < list2.size()) {
-      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
-        // fix this line below
-        result.add(list1.get(index2));
-        index2 += 1;
-      }
-      else {
-        result.add(list2.get(index2));
-        index2 += 1;
-      }
-    }
-    while(index1 < list1.size()) {
-      result.add(list1.get(index1));
-      index1 += 1;
-    }
-    while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      // change index1 below to index2 to fix test
-      index2 += 1;
-    }
-    return result;
-  }
-}
-```
-***
-
 **EdStem post from a student regarding a question about debugging the ListExamples program.**
 
 "Hello,
@@ -89,7 +36,7 @@ The bug was located in line 30. Instead of adding `index1` from `list1`, the stu
 
 `ListExamples.java` file, `ListExamplesTests.java` file, `StringChecker.class` file, `ListExamples.class` file, `ListExamplesTests.class` file, `test.sh` file, and `lib` folder containing `hamcrest-core-1.3.jar` and junit-4.13.2.jar` files. These are all within the same home directory. 
 
-**Contents of `ListExamples.java` file before fixing bug: (also shown above)**
+**Contents of `ListExamples.java` file before fixing bug:**
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -150,6 +97,59 @@ class ListExamples {
 **What to edit to fix the bug:**
 
 In line 30, edit `result.add(list1.get(index2));` to `result.add(list1.get(index1));`.
+
+Below is the correct code after fixing the bug:
+```
+import java.util.ArrayList;
+import java.util.List;
+
+interface StringChecker { boolean checkString(String s); }
+
+class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        // fix to result.add(s);
+        result.add(s);
+      }
+    }
+    return result;
+  }
+
+  // Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        // fix this line below
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      // change index1 below to index2 to fix test
+      index2 += 1;
+    }
+    return result;
+  }
+}
+```
 
 ***
 
