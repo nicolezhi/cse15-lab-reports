@@ -81,7 +81,7 @@ The bug was located in line 30. Instead of incrementing `index1` by 1, the stude
 
 ***
 
-## Setup information**
+## Setup information
 
 **File setup:**
 
