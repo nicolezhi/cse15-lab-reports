@@ -1,6 +1,6 @@
 # **Lab Report 5, Week 9**
 ***
-## Edstem Conversation About Debugging
+## Part 1: Edstem Conversation About Debugging
 
 **Below is the code for the ListExamples.java file before the bug is fixed.**
 ```
@@ -88,7 +88,7 @@ The bug was located in line 30. Instead of adding `index1` from `list1`, the stu
 
 `ListExamples.java` file, `ListExamplesTests.java` file, `StringChecker.class` file, `ListExamples.class` file, `ListExamplesTests.class` file, `test.sh` file, and `lib` folder containing `hamcrest-core-1.3.jar` and junit-4.13.2.jar` files. These are all within the same home directory. 
 
-**Contents of `ListExamples.java` file before fixing bug:**
+**Contents of `ListExamples.java` file before fixing bug: (also shown above)**
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -149,3 +149,7 @@ class ListExamples {
 **What to edit to fix the bug:**
 
 In line 30, edit `result.add(list1.get(index2));` to `result.add(list1.get(index1));`.
+
+***
+
+## Part 2: Reflection
