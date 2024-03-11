@@ -93,6 +93,7 @@ The bug was located in line 30. Instead of incrementing `index1` by 1, the stude
 **Command line to compile and run:**
 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 
 **What to edit to fix the bug:**
