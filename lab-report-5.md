@@ -81,6 +81,20 @@ The bug was located in line 30. Instead of incrementing `index1` by 1, the stude
 
 ***
 
-**Setup information**
+## Setup information**
+
+**File setup:**
+
+`ListExamples.java` file, `ListExamplesTests.java` file, `StringChecker.class` file, `ListExamples.class` file, `ListExamplesTests.class` file, `test.sh` file, and `lib` folder containing `hamcrest-core-1.3.jar` and junit-4.13.2.jar` files. These are all within the same home directory. 
+
+**Contents of `ListExamples.java` file before fixing bug:**
 
 
+**Command line to compile and run:**
+
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+**What to edit to fix the bug:**
+
+In line 30, edit `index2 += 1` to `index1 += 1`. 
