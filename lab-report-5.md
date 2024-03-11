@@ -55,6 +55,7 @@ class ListExamples {
 ***
 
 **EdStem post from a student regarding a question about debugging the ListExamples program.**
+
 "Hello,
 
 My program is giving me an error that the merge method is not working in `testMerge2`. I am not sure what I'm doing wrong. Below is my code and output."
