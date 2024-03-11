@@ -52,5 +52,6 @@ class ListExamples {
   }
 }
 ```
+***
 
 **Post from a student regarding a question about debugging the ListExamples program.**
