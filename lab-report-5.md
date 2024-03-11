@@ -61,8 +61,8 @@ class ListExamples {
 
 My program is giving me an error that the merge method is not working in `testMerge2`. I am not sure what I'm doing wrong. Below is my code and output."
 
-<img width="669" alt="Screenshot 2024-03-11 at 2 53 31 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/7a993e30-06fa-4a17-8ea8-567b22dadbdf">
-<img width="549" alt="Screenshot 2024-03-11 at 2 53 56 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/d26c7aab-8fe7-4394-b924-baee881195b3">
+<img width="663" alt="Screenshot 2024-03-11 at 3 42 57 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/37a6483b-e65b-4dfe-940d-3e3eb1b740bd">
+<img width="571" alt="Screenshot 2024-03-11 at 3 43 27 PM" src="https://github.com/nicolezhi/cse15-lab-reports/assets/112342454/e9ec6799-93f0-462e-8d9c-dc3c0b5e3b92">
 
 ***
 
