@@ -154,3 +154,5 @@ class ListExamples {
 ***
 
 ## Part 2: Reflection
+
+Something cool I learned from labs the second half of this quarter is being able to use `vim` to edit code from the terminal. I enjoyed learning about the different commands involved to edit the code files. I also found this really useful for any future coding projects that I do!
