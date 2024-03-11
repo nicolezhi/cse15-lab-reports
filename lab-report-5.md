@@ -30,7 +30,7 @@ The bug was located in line 30. Instead of adding `index1` from `list1`, the stu
 
 ***
 
-## Setup information
+### Setup information
 
 **File setup:**
 
